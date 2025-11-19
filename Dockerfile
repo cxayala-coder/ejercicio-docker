@@ -1,5 +1,5 @@
 # IMAGEN BASE
-FROM cxayala/super-imagen-base
+FROM cxayala/super-imagen-base:1
 
 # INSTRUCCIONES
 WORKDIR /app
