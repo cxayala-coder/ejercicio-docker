@@ -1,10 +1,6 @@
 # IMAGEN BASE
-FROM python:3.12-alpine
+FROM cxayala/super-imagen-base
 
-# Actualizar pip para corregir vulnerabilidad CVE
-RUN pip install --upgrade pip>=25.3
-
- 
 # INSTRUCCIONES
 WORKDIR /app
  
